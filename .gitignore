@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# ローカル設定（Apps Script の実URLなど）
+Saunamanager2/Config.swift
+
+# Claude Code の作業ファイル
+.claude/
+
+# 別テーマの試作（サウナ室の伝熱シミュレーション）。公開する場合はこの行を削除
+simulation/
